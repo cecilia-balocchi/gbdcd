@@ -7,13 +7,13 @@
 gbdcdGroups(out, k = 2)
 }
 \arguments{
-\item{out}{output from gbdcd.}
+  \item{out}{output from gbdcd.}
 
-\item{k}{number of clusters}
+  \item{k}{number of clusters}
 }
 \value{
-a \code{list} of seven objects:
-\item vector indicating the cluster for each element.
+  a \code{list} of seven objects:
+    \item{vector indicating the cluster for each element.}
 }
 \description{
 Implement Adapted Ng-Jordan-Weiss clustering on gbdcd results
